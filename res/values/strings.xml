@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WCS</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_news">새소식</string>
+    <string name="title_story">이야기</string>
+    <string name="title_talk">대화</string>
+    <string name="title_settings">설정</string>
+
+</resources>

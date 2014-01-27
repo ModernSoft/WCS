@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/wcs_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="WCS"
+        android:textSize="200sp"
+        android:textColor="#bdbdbd" />
+
+    <TextView
+        android:id="@+id/wcs_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wcs_title"
+        android:layout_centerHorizontal="true"
+        android:text="World Community Service"
+        android:textColor="#bdbdbd"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/wcs_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wcs_subtitle"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/orange" />
+
+</RelativeLayout>
